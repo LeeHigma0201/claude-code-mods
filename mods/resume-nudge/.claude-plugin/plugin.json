@@ -1,0 +1,8 @@
+{
+  "name": "resume-nudge",
+  "version": "0.1.0",
+  "description": "Detects a session that was cut off mid-turn (restart, crash) and drafts the standard pick-up prompt; /resume-here sends it.",
+  "author": {
+    "name": "Jason Walls"
+  }
+}

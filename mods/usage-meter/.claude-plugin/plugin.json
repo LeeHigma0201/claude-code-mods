@@ -1,0 +1,8 @@
+{
+  "name": "usage-meter",
+  "version": "0.1.0",
+  "description": "Status-line meter for context fill, 5-hour and weekly plan limits, and session cost, plus /usage-meter for Remote Control.",
+  "author": {
+    "name": "Jason Walls"
+  }
+}

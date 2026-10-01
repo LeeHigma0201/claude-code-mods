@@ -1,0 +1,29 @@
+{
+  "name": "claude-code-mods",
+  "description": "Claude Code mods: mod-scout (find the mods you would use most), usage meter, check ledger, resume nudge",
+  "owner": {
+    "name": "Jason Walls"
+  },
+  "plugins": [
+    {
+      "name": "mod-scout",
+      "source": "./mods/mod-scout",
+      "description": "Scans your recent sessions and ranks the mods you would use most; /mod-scout, /mod-scout design 3"
+    },
+    {
+      "name": "usage-meter",
+      "source": "./mods/usage-meter",
+      "description": "Context, plan-limit and cost meter in the status line; /usage-meter"
+    },
+    {
+      "name": "check-ledger",
+      "source": "./mods/check-ledger",
+      "description": "Which checks ran, which edits came after them; /evidence"
+    },
+    {
+      "name": "resume-nudge",
+      "source": "./mods/resume-nudge",
+      "description": "Drafts the pick-up prompt after a restart cut a turn off; /resume-here"
+    }
+  ]
+}

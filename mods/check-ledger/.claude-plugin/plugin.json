@@ -1,0 +1,8 @@
+{
+  "name": "check-ledger",
+  "version": "0.1.0",
+  "description": "Records which real checks ran and which files changed after them; status line, /evidence, and an evidence tool Claude reads before claiming tested.",
+  "author": {
+    "name": "Jason Walls"
+  }
+}

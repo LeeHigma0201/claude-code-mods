@@ -1,0 +1,11 @@
+{
+  "name": "mod-scout",
+  "version": "0.1.0",
+  "description": "Scans your recent Claude Code sessions and ranks the mods you would use most, with a bundled skill that designs and builds them.",
+  "author": { "name": "Jason Walls" },
+  "userConfig": {
+    "days": { "type": "number", "title": "Days to scan", "description": "How many days of transcripts to read", "default": 14 },
+    "exclude": { "type": "string", "title": "Projects to skip", "description": "Comma-separated substrings of project paths to leave out (private or legal work)", "default": "" },
+    "examples": { "type": "boolean", "title": "Keep prompt snippets", "description": "Keep short prompt examples in the report. Turn off for a report you will share.", "default": true }
+  }
+}
